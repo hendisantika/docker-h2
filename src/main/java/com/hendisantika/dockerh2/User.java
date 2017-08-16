@@ -1,9 +1,7 @@
 package com.hendisantika.dockerh2;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Table;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created by IntelliJ IDEA.
