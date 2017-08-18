@@ -1,7 +1,16 @@
-# Spring Boot Docker H@
+# Spring Boot Docker H2
 
 
-So our desired image id is the latest userservice: 717df7ce7063. With this information we can create our docker run command:
+### Build this docker
+`./mvnw install dockerfile:build`
+
+### So our desired image id is the latest userservice: 717df7ce7063. With this information we can create our docker run command:
+
+### Show docker images
+`docker images`
+
+### Run our image
+`docker run -p 8080:8080 -t hendisantika/docker-h2`
 
 ?
 1
