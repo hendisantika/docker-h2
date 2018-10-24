@@ -1,6 +1,5 @@
 # Spring Boot Docker H2
 
-
 ### Build this docker
 `./mvnw install dockerfile:build`
 
