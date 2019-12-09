@@ -1,6 +1,7 @@
 package com.hendisantika.dockerh2;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +22,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    private static Logger logger = Logger.getLogger(UserController.class);
+    private static Logger logger = LogManager.getLogger(UserController.class);
 
     /**
      * /create --> Create a new user and save it in the database.
